@@ -3,6 +3,9 @@ import pickle
 import pandas as pd
 import string
 import nltk
+import nltk
+import nltk
+nltk.download('stopwords')
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 import string
